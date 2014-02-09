@@ -8,7 +8,7 @@
  *
  * @copyright  bit3 UG 2013
  * @author     Tristan Lins <tristan.lins@bit3.de>
- * @package    avisota/contao-message-element-text
+ * @package    avisota/contao-message-element-table
  * @license    LGPL-3.0+
  * @filesource
  */
