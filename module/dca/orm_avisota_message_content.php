@@ -20,10 +20,11 @@
  */
 $GLOBALS['TL_DCA']['orm_avisota_message_content']['metapalettes']['table'] = array
 (
-	'type'     => array('type', 'cell', 'headline'),
-	'table'    => array('tableItems'),
-	'tconfig'  => array('tableSummary', 'tableHeader', 'tableFooter'),
-	'expert'   => array(':hide', 'cssID', 'space')
+	'type'      => array('type', 'cell', 'headline'),
+	'table'     => array('tableItems'),
+	'tconfig'   => array('tableSummary', 'tableHeader', 'tableFooter'),
+	'expert'    => array(':hide', 'cssID', 'space'),
+	'published' => array('invisible'),
 );
 
 $GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['tableItems'] = array
