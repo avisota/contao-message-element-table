@@ -12,7 +12,7 @@
 		{% endif %}
 		<table summary="{{ tableSummary }}">
 			{% set start = 0 %}
-			{% set end = tableHeader|length %}
+			{% set end = tableItems|length %}
 			{% if tableHeader %}
 				<thead>
 				{% set row = tableItems|first %}
