@@ -13,8 +13,7 @@
  * @filesource
  */
 
-
 /**
  * Mailing content elements
  */
-$GLOBALS['TL_LANG']['MCE']['table']     = array('Table', 'Generates an optionally sortable table.');
+$GLOBALS['TL_LANG']['MCE']['table'] = array('Table', 'Generates an optionally sortable table.');

@@ -6,47 +6,47 @@
 {% set headline = headline.value %}
 
 {% block content %}
-	{% spaceless %}
-		{% if headline %}
-			<{{ hl }}>{{ headline }}</{{ hl }}>
-		{% endif %}
-		<table summary="{{ tableSummary }}">
-			{% set start = 0 %}
-			{% set end = tableItems|length %}
-			{% if tableHeader %}
-				<thead>
-				{% set row = tableItems|first %}
-				{% set start = 1 %}
-				{% set end = end - 1 %}
-				<tr>
-					{% for cell in row %}
-						<th>{{ cell }}</th>
-					{% endfor %}
-				</tr>
-				</thead>
-			{% endif %}
+    {% spaceless %}
+        {% if headline %}
+            <{{ hl }}>{{ headline }}</{{ hl }}>
+        {% endif %}
+        <table summary="{{ tableSummary }}">
+            {% set start = 0 %}
+            {% set end = tableItems|length %}
+            {% if tableHeader %}
+                <thead>
+                {% set row = tableItems|first %}
+                {% set start = 1 %}
+                {% set end = end - 1 %}
+                <tr>
+                    {% for cell in row %}
+                        <th>{{ cell }}</th>
+                    {% endfor %}
+                </tr>
+                </thead>
+            {% endif %}
 
-			{% if tableFooter %}
-				<tfoot>
-				{% set row = tableItems|last %}
-				{% set end = end - 1 %}
-				<tr>
-					{% for cell in row %}
-						<th>{{ cell }}</th>
-					{% endfor %}
-				</tr>
-				</tfoot>
-			{% endif %}
+            {% if tableFooter %}
+                <tfoot>
+                {% set row = tableItems|last %}
+                {% set end = end - 1 %}
+                <tr>
+                    {% for cell in row %}
+                        <th>{{ cell }}</th>
+                    {% endfor %}
+                </tr>
+                </tfoot>
+            {% endif %}
 
-			<tbody>
-			{% for row in tableItems|slice(start, end) %}
-				<tr>
-					{% for cell in row %}
-						<td>{{ cell }}</td>
-					{% endfor %}
-				</tr>
-			{% endfor %}
-			</tbody>
-		</table>
-	{% endspaceless %}
+            <tbody>
+            {% for row in tableItems|slice(start, end) %}
+                <tr>
+                    {% for cell in row %}
+                        <td>{{ cell }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% endspaceless %}
 {% endblock %}
