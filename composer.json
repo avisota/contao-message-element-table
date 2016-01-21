@@ -43,19 +43,13 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Avisota\\Contao\\Message\\Element\\Table": "src/"
+            "Avisota\\Contao\\Message\\Element\\Table\\": "src/"
         }
     },
     "extra": {
         "contao": {
             "sources": {
                 "contao": "system/modules/avisota-message-element-table"
-            },
-            "transifex": {
-                "project": "avisota-contao",
-                "prefix": "contao-message-element-table-",
-                "languages_cto": "contao/languages",
-                "languages_tx": ".tx"
             }
         },
         "branch-alias": {
