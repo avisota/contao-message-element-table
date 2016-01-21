@@ -1,0 +1,56 @@
+<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file datatype="php" date="2014-05-06T04:03:35+02:00" original="orm_avisota_message_content" source-language="en" target-language="rm">
+    <body>
+      <trans-unit id="orm_avisota_message_content.tableItems.0">
+        <source>Table Entries </source>
+        <target>Elements da la tabella</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.tableItems.1">
+        <source>If JavaScript is disabled, you must save your changes until you change the order.</source>
+        <target>Sche JavaScript è deactivà stos ti memorisar tias midadas avant che midar la successiun.</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.tableSummary.0">
+        <source>Summary </source>
+        <target>Resumaziun</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.tableSummary.1">
+        <source> Please enter a brief summary of the content and structure of the table.</source>
+        <target>Endatescha ina curta resumaziun da la tabella e descriva la finamira e structura.</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.tableHeader.0">
+        <source>Add header</source>
+        <target>Agiuntar in chau da tabella</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.tableHeader.1">
+        <source>The first row of the table to use as the header.</source>
+        <target>Far ord l'emprima lingia il chau da la tabella.</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.tableFooter.0">
+        <source>Add footer</source>
+        <target>Agiuntar in pe da la tabella</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.tableFooter.1">
+        <source>The last row of the table to use as a footer.</source>
+        <target>Far ord l'ultima colonna il pe da la tabella.</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.table_legend">
+        <source>Table Entries</source>
+        <target>Elements da la tabella</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.tconfig_legend">
+        <source>Table Settings</source>
+        <target>Configuraziun da la tabella</target>
+        
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file datatype="php" date="2014-05-06T04:03:35+02:00" original="orm_avisota_message_content" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="orm_avisota_message_content.tableItems.0">
+        <source>Table Entries </source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.tableItems.1">
+        <source>If JavaScript is disabled, you must save your changes until you change the order.</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.tableSummary.0">
+        <source>Summary </source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.tableSummary.1">
+        <source> Please enter a brief summary of the content and structure of the table.</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.tableHeader.0">
+        <source>Add header</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.tableHeader.1">
+        <source>The first row of the table to use as the header.</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.tableFooter.0">
+        <source>Add footer</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.tableFooter.1">
+        <source>The last row of the table to use as a footer.</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.table_legend">
+        <source>Table Entries</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.tconfig_legend">
+        <source>Table Settings</source>
+        
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
