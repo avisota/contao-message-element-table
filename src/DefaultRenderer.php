@@ -68,7 +68,7 @@ class DefaultRenderer implements EventSubscriberInterface
     public function renderContent(RenderMessageContentEvent $event)
     {
         global $container;
-        
+
         $content = $event->getMessageContent();
 
         if ($content->getType() != 'table' || $event->getRenderedContent()) {
