@@ -3,10 +3,12 @@
     <body>
       <trans-unit id="MCE.table.0">
         <source>Table</source>
+        <target>Tabela</target>
         
       </trans-unit>
       <trans-unit id="MCE.table.1">
         <source>Generates an optionally sortable table.</source>
+        <target>Gera uma tabela opcionalmente classificável.</target>
         
       </trans-unit>
     </body>
