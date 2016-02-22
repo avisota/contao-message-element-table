@@ -3,10 +3,12 @@
     <body>
       <trans-unit id="orm_avisota_message_content.tableItems.0">
         <source>Table Entries </source>
+        <target>Entradas da tabela </target>
         
       </trans-unit>
       <trans-unit id="orm_avisota_message_content.tableItems.1">
         <source>If JavaScript is disabled, you must save your changes until you change the order.</source>
+        <target>Se o JavaScript estiver desabilitado, você deve salvar as alterações até que você mude a ordem.</target>
         
       </trans-unit>
       <trans-unit id="orm_avisota_message_content.tableSummary.0">
